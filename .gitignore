@@ -1,0 +1,11 @@
+# Ignore ONLY the massive generated files to prevent GitHub crashes
+tblResults_SlopeCoefficients_Level_SmoothL.mat
+gdpResults_AllCoefficients_Levels5.mat
+
+# Ignore macOS hidden files
+.DS_Store
+
+# Ignore MATLAB crash logs and temporary files
+*.asv
+*.m~
+crash_dumps/

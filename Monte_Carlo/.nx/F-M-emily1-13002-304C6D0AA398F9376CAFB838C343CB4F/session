@@ -1,0 +1,13 @@
+Info: Slave server running with pid 16131.
+Info: Listening to slave connections on port 25002.
+Info: Starting NoMachine Monitor version '6.2.4'.
+Info: Loaded translation files for 'English'.
+24854 775 09:13:43 514.270 OsDetect: Setting os type to 'MacOs'.
+24854 775 09:13:43 515.137 Main: Creating a new connection monitor.
+24854 775 09:13:44 452.962 ClientThread: Creating new thread.
+24854 775 09:13:45 121.879 MonitorService: Enabled drag and drop feature.
+24854 775 09:25:13 647.679 Io/Io: WARNING! Descriptor FD#3 type socket still open at exit.
+24854 775 09:25:13 648.729 Io/Io: WARNING! Descriptor FD#4 type socket still open at exit.
+24854 775 09:25:13 651.056 Io/Io: WARNING! Descriptor FD#5 type socket still open at exit.
+24854 775 09:25:13 654.017 Io/Io: WARNING! Descriptor FD#7 type socket still open at exit.
+24854 775 09:25:13 656.518 Io/Io: WARNING! Descriptor FD#11 type socket still open at exit.
