@@ -37,7 +37,7 @@ MAIN FIGURES (Saved as PNGs in the root folder):
 *(Any extra generated figures are the authors' diagnostic plots not included in the main text).*
 
 ## Update: Epoch Sensitivity Analysis (Extension)
-In addition to the base replication, I have conducted an extension analysis testing the parameter stability of the unobserved components model across different historical regimes. The following files have been added to the repository:
+In addition to the base replication, I have conducted an extension analysis testing the parameter stability of the unobserved components model across different historical regimes. The following files have been added to the *GDP results* folder in the repository:
 
 **1. Estimation Scripts:**
 * `gdp_GreatMod.m`: Runs the MCMC Gibbs sampler on a restricted dataset covering the Great Moderation (1984-2007).
