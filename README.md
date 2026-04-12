@@ -50,4 +50,10 @@ In addition to the base replication, I have conducted an extension analysis test
 **3. Output:**
 * `Epoch_Analysis_Gamma.png`: The plot produced by `Epoch_Analysis_Plot.m`.
 
-*Note: The generated `.mat` files from the extension runs are excluded due to GitHub size constraints. Please run the two `gdp_*.m` scripts to generate the posterior draws locally before running the plot and table scripts. The main replication code needs to be run first before running this extension.* 
+### ⚠️ Important Execution Order & Prerequisites
+To successfully run the Epoch Analysis visualization (`Epoch_Analysis_Plot.m`) and table generator (`Epoch_Analysis_Table.m`), you **must** have the authors' baseline results generated first. 
+
+* **If you have already run the base replication:** You are good to go! There is no need to rerun the authors' baseline estimation.
+* **If you are starting from scratch:** You must first run the authors' original GDP estimation script to generate the baseline `.mat` file (Note: this takes roughly 3-5 hours depending on your hardware). 
+
+Once the baseline `.mat` file is present, you can run `gdp_GreatMod.m` and `gdp_ModernEra.m` (which only take 1-2 minutes each due to the static epoch restriction), followed by the plot and table scripts.
