@@ -35,3 +35,19 @@ MAIN FIGURES (Saved as PNGs in the root folder):
 - GDP_Fig_10, 11, 12 correspond to Figures 10, 11, 12.
 - MC_Fig_13, 14, 15 correspond to Figures 13, 14, 15.
 *(Any extra generated figures are the authors' diagnostic plots not included in the main text).*
+
+## Update: Epoch Sensitivity Analysis (Extension)
+In addition to the base replication, I have conducted an extension analysis testing the parameter stability of the unobserved components model across different historical regimes. The following files have been added to the repository:
+
+**1. Estimation Scripts:**
+* `gdp_GreatMod.m`: Runs the MCMC Gibbs sampler on a restricted dataset covering the Great Moderation (1984-2007).
+* `gdp_ModernEra.m`: Runs the estimation for the Modern Era (1984-2019).
+
+**2. Analysis Scripts:**
+* `Epoch_Analysis_Plot.m`: Generates a comparative Kernel Density plot of the posterior $\gamma$ distributions.
+* `Epoch_Analysis_Table.m`: Generates the statistical summary table for the posterior estimates.
+
+**3. Output:**
+* `Epoch_Analysis_Gamma.png`: The plot produced by `Epoch_Analysis_Plot.m`.
+
+*Note: The generated `.mat` files from the extension runs are excluded due to GitHub size constraints. Please run the two `gdp_*.m` scripts to generate the posterior draws locally before running the plot and table scripts. The main replication code needs to be run first before running this extension.* 
